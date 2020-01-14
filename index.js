@@ -59,6 +59,4 @@ function readFile(options) {
   });
 }
 
-const greeting = `${readFile(options.p)}`;
-
-console.log(greeting);
+readFile(options.p)
