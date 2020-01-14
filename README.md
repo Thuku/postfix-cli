@@ -16,13 +16,14 @@
 ## Usage
 
 - create a `.txt` file with your postfix expressions each on its own line
+-  the last line in the file should have the character `q`
 - The expressions should follow the following format
   ```
   expr: -?[0-9]+
   expr: expr expr (+|-|*|/)
   ```
 - Example in the repository
-  stack.txt
+  `stack.txt`
 - run the cli by passing the file path using this command
   `postfixcli -p "file path"`
 - eg run this command in this repository `postfixcli -p stack.txt`
