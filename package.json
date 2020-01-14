@@ -1,0 +1,17 @@
+{
+  "name": "postfixcli",
+  "version": "1.0.0",
+  "description": "postfix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^13.2.4"
+  },
+  "bin": {
+    "postfixcli": "./index.js"
+  }
+}
